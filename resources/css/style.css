@@ -15,3 +15,14 @@ body {
 a:link {
   color: Aquamarine;
 }
+#cellphone {
+  background: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/excursion/images/phone.png') no-repeat top left transparent;
+    width: 900px; /* Adjust TV image width */
+    height: 300px; /* Adjust TV image height */
+    position: center;
+}
+#cellphone video {
+  position: absolute;
+    top: 30px; /* Adjust top position */
+    left: 40px; /* Adjust left position */
+}
